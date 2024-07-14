@@ -1,0 +1,101 @@
+
+   <%- include('navbar')%>
+          
+   <ul class="navbar-nav ml-auto signs ">
+                 
+                      
+    <% if(logged){ %>
+     
+   <li class="nav-item signout">
+       <a class="nav-link" href="/logout"><i class="fas fa-user-plus"></i>Sign out</a>
+   </li>
+       <% }else{ %>
+           <li class="nav-item signin">
+               <a class="nav-link" href="/login"><i class="fas fa-sign-in-alt"></i>Sign in </a>
+</li>
+           <li class="nav-item signup">
+            <a class="nav-link" href="/register"><i class="fas fa-user-plus"></i>Sign up</a>
+        </li>
+     
+         <% } %>
+
+
+ 
+
+
+</ul>
+</div>
+</nav>
+<h1 style="text-align: center;">About us</h1>
+<section class="about-wrap">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="text-wrap-B">
+					<h1 class="text-center about-head">Find Banquet, Helping People Make Their Dream Wedding Come True</h1>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="text-wrap-B">
+					<p>When it comes to have a perfect-hosted event, the most important thing that needs to be perfect is the venue of the event and then other services. Find Banquet has popped up like a boom in the event management industry, which is a plethora of best-rated and affordable banquet halls and event vendors near you. Here you can find vendors to be booked for the Weddings, Seminars, Receptions, Corporate Events, DJ Nights, and Dandiya Nights and for lot more occasions. We don’t want our clients to make much of their efforts in finding a vendors for their events. This platform will be a helping-hand to the owners of such banquet halls and other related service vendors who can come, register themselves, and get find among others.</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="text-wrap-B">
+					<p>We are a young team of enthusiasts techies who has come up together to create a platform that will help both the owner and booking client. We have trendy, beautiful, elegant, and professional venues that can be booked. This splendid product is going to showcase venues handpicked by our team and will also save the time of event planners who spend hours in looking for a perfect and unique venues.</p>
+					<p>At Find Banquet, we connect our clients with the best banquet halls within their own residential city based on their requirements so that they can get the most desirable and exemplar venue fro their events.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="testimonials">
+   
+   
+    <!-- carousel -->  
+   <!-- this is for a spen many testimonial by sliding-->
+ 
+ 
+ <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+ <div class="carousel-inner">
+ <div class="carousel-item active">  <!--first item active always -->
+ 
+  <h2 class="testimonial-text">Booking a good banquet hall means ensuring quality service for your guests. Banquet halls provide you with the requirements that you need for an event to carry out successfully so that there are no quality issues. This is what you expect from a place where you are going to arrange for a wedding</h2>
+  <img class="testimonials-image" src="\images\Banquet 1.jpg" alt="image">
+  
+ 
+ 
+ </div>
+ <div class="carousel-item ">
+ 
+ 
+  <h2 class="testimonial-text">
+   Budget Friendly Rather than dealing with different service vendors at once, you only need to deal with the banquet authorities or planners, which saves a lot on your costing of the events, as it includes all the expenses that you spend under the purview of event management. From lighting to decoration, food to guest accommodation, and almost every aspect of event management.</h2>
+  <img class="testimonials-image" src="\images\wedding 1.jpg" alt="image">
+ 
+ 
+ 
+ </div>
+ <div class="carousel-item ">
+ 
+ 
+   <h2 class="testimonial-text">
+      Because time itself is like a spiral, something special happens on your birthday each year: The same energy that God invested in you at birth is present once again. </h2>
+        <img class="testimonials-image" src="\images\Birthday 1.png" alt="image">
+  
+ 
+ 
+ </div>
+ </div>
+ <!-- this is for previous or next button -->
+ <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+  <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+ </a>
+ </div>
+ 
+  </section>
+<%- include('footer1')%>
+</body>
+</html>
